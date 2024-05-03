@@ -1,9 +1,9 @@
 :root {
 
 
-    --color-blue-50: #2115d3;
-    --color-blue-100: #741be0;
-    --color-blue-200: #3e15b9;
+    --color-blue-50: #2a3baa;
+    --color-blue-100: #2f3d99;
+    --color-blue-200: #2b3573;
 
     --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
 }
@@ -12,8 +12,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "grafiti";
 }
 
+@font-face {
+    font-family: "grafiti";
+    src: url()
+  
+}
 
 
 #container {
@@ -22,14 +28,41 @@
     background: var(--color-gradient);
     display: flex;
     position: relative;
+    font-family: grafiti;
     
    
 }
 .IMG img{
-    width: 30px;
-    justify-content: center;
+    width: 40px;
+    justify-content: space-between;
+    position: relative;
+   
+    
+    
+}
+
+.meialua{
+    position: absolute;
+    top: 0;
+    width: 97.9%;
+    height: 100%;
+    background-color: rgb(135, 210, 237);
+    clip-path: circle(50% at bottom right);
 
 }
 
+#logo img{
+    display: flex;
+    width: 700px;
+    position: absolute;
+    padding: 90px;
+    margin-top: 358px;
+    margin-left: 1150px;
+    
+
+    
+    
+
+}
 
 
