@@ -12,15 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "grafiti";
 }
-
-@font-face {
-    font-family: "grafiti";
-    src: url()
-  
-}
-
 
 #container {
     height: 100vh;
@@ -29,12 +21,14 @@
     display: flex;
     position: relative;
     font-family: grafiti;
+    overflow-x: hidden;
+    overflow-y: hidden;
     
    
 }
 .IMG img{
     width: 40px;
-    justify-content: space-between;
+    
     position: relative;
    
     
@@ -44,7 +38,7 @@
 .meialua{
     position: absolute;
     top: 0;
-    width: 97.9%;
+    width: 97.4%;
     height: 100%;
     background-color: rgb(135, 210, 237);
     clip-path: circle(50% at bottom right);
@@ -56,13 +50,25 @@
     width: 700px;
     position: absolute;
     padding: 90px;
-    margin-top: 358px;
-    margin-left: 1150px;
-    
+    margin-top: 240px;
+    margin-left: 895px;
+    border: none;
+    outline: none;
+    box-shadow: none;
 
-    
+}
+
+#logonome img{
+
+    width: 1790px;
+    margin-left: -510px;
+    margin-top: -110px;
+    transition: transform 0.3s ease;
     
 
 }
 
+#logonome img:hover {
+    transform: scale(1.1); /* Aumenta a escala em 10% ao passar o mouse */
+}
 
