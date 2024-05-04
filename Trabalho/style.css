@@ -1,9 +1,9 @@
 :root {
 
 
-    --color-blue-50: #2a3baa;
-    --color-blue-100: #2f3d99;
-    --color-blue-200: #2b3573;
+    --color-blue-50: #07146b;
+    --color-blue-100: #1d2b88;
+    --color-blue-200: #2a3686;
 
     --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
 }
@@ -27,10 +27,10 @@
    
 }
 .IMG img{
-    width: 40px;
+    width: 30px;
     
     position: relative;
-   
+    
     
     
 }
@@ -38,20 +38,59 @@
 .meialua{
     position: absolute;
     top: 0;
-    width: 97.4%;
+    width: 99.9%;
     height: 100%;
     background-color: rgb(135, 210, 237);
     clip-path: circle(50% at bottom right);
 
 }
 
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px, 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+
+header .navegation li{
+    list-style: none;
+}
+
+header .navegation li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 50px;
+    margin-right: 44px;
+    font-family:  monospace;
+    
+}
+
+
+
+
 #logo img{
     display: flex;
     width: 700px;
     position: absolute;
     padding: 90px;
-    margin-top: 240px;
-    margin-left: 895px;
+    margin-top: 440px;
+    margin-left: 1195px;
     border: none;
     outline: none;
     box-shadow: none;
@@ -63,12 +102,10 @@
     width: 1790px;
     margin-left: -510px;
     margin-top: -110px;
-    transition: transform 0.3s ease;
+    
     
 
 }
 
-#logonome img:hover {
-    transform: scale(1.1); /* Aumenta a escala em 10% ao passar o mouse */
-}
+
 
