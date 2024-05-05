@@ -23,6 +23,8 @@
     font-family: grafiti;
     overflow-x: hidden;
     overflow-y: hidden;
+    overflow: hidden;
+    justify-content: space-around;
     
    
 }
@@ -100,8 +102,8 @@ header .navegation li a{
 #logonome img{
 
     width: 1790px;
-    margin-left: -510px;
-    margin-top: -110px;
+    margin-top: 358px;
+    margin-left: 1150px;
     
     
 
