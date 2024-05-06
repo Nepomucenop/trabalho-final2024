@@ -61,15 +61,19 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    margin-left: 400px;
+    margin-left: 280px;
     margin-top: 300px;
     font-size: 95px;
+    transiton: transform 0.2s ease;
+
 
 }
 #logonome :hover {
-    transform: scale(1.1);
-    border: none;
+    transfrm: scale(1.05);
 }
+
+
+
 .icons {
     position: absolute;
     top: 50%;
@@ -95,3 +99,28 @@
     
 }
 
+#planetas .planeta1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 1250px;
+    margin-top: -40px;
+
+
+}
+#planetas .cometa{
+    
+    width: 100%;
+    height: 100%;
+    margin-left: 550px;
+    position: absolute;
+    
+}
+#planetas .planeta3{
+    width: 100%;
+    height: 100%;
+    margin-top: 500px ;
+    position: absolute;
+
+
+}
