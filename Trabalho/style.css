@@ -1,8 +1,8 @@
 :root {
 
 
-    --color-blue-50: #394abb;
-    --color-blue-100: #22329a;
+    --color-blue-50: #4759cf;
+    --color-blue-100: #2d3fb3;
     --color-blue-200: #0b1c90;
 
     --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 #container {
@@ -23,6 +24,7 @@
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
+    border: none;
     
 }
 
@@ -41,22 +43,27 @@
     width: 700px;
     position: absolute;
     padding: 90px;
-    margin-top: 247px;
-    margin-left: 935px;
+    margin-top: 450px;
+    margin-left: 1255px;
     border: none;
     outline: none;
     box-shadow: none;
+
 }
 #logonome img{
-    width: 1700px;
-    margin-left: -485px;
-    margin-top: -85px;
+    width: 100%;
+    margin-left: -395px;
+    margin-top: 6px;
     transition: transform 0.3s ease;
-    padding: 1px;
+    padding: 0;
     position: relative;
+    background-coor: #000;
+    border: none;
+    box-shadow: none;
 }
 #logonome img:hover {
     transform: scale(1.1);
+    border: none;
 }
 .icons {
     position: absolute;
@@ -64,14 +71,24 @@
     left: 50%;
     width: 100%;
     font-size: 25px;
-    margin-top: -340px;
-    margin-left: 1450px;
-    transform: translate(-50%);
+    margin-top: -444px;
+    margin-left: 1800px;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
 }
 .icons i{
-    margin: 6px;
+    margin: 11px;
     color: aliceblue;
+    opacity:0.8;
 } 
 .icons a {
     text-decoration: none;
 }
+.icons i:hover{
+    transform: scale(1.9);
+    opacity:2;
+    
+
+
+}
+
