@@ -64,16 +64,15 @@
     margin-left: 280px;
     margin-top: 390px;
     font-size: 95px;
-    transition: transform 0.2s ease;
-    color: rgb(255, 255, 255)   ;
+    color: rgb(255, 255, 255);
 
 
 
 }
-#logonome :hover {
-    transform: scale(1.05);
+#logonome h2:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
 }
-
 
 
 .icons  {
@@ -81,7 +80,7 @@
     top: 50%;
     left: 50%;
     width: 100%;
-    font-size: 25px;
+    font-size: 25px;    
     margin-top: -500px;
     margin-left: 1960px;
     transform: translate(-50%, -50%);
@@ -184,7 +183,8 @@
 .planeta3{
     width: 100%;
     height: 100%;
-    margin-top: 120px ;
+    margin-top: 500px ;
+    margin-left: -160px;
     position: absolute;
     animation: planeta3 9s ease-out alternate infinite forwards;
 
@@ -196,21 +196,6 @@
     margin-top: 850px;
     margin-left: -300px;
     
-}
-.conta1{
-    width: 100%;
-    height: 100%;
-    margin-top: 350px;
-    margin-left: 600px;
-}
-.conta2{
-    width: 100%;
-    height: 100%;
-    margin-top: 100px;
-    margin-left: 100px;
-
-
-
 }
 
 
