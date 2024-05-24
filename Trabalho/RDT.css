@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'fonte';
+    src: url(Copperplate-Gothic-Std-32-BC.ttf);
+}
+
+
+
+
+
+
 :root {
     --color-primary-1: #1930c6;
     --color-primary-2: #041270;
@@ -16,12 +26,24 @@
     box-sizing: border-box;
 }
 
+.jumbo{
+    margin-bottom: 870px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 99px;
+    font-family: 'fonte';
+    color: white;
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: var(--linear-gradiente)
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 }
 
 .calculator{
