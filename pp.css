@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-    min-height: 700px; /* Reduzido de 1400px para 800px */
-    padding: 2%; /* Reduzido o padding */
+    min-height: 700px;
+    padding: 2%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -56,11 +56,38 @@ body {
     color: black;
 }
 
+.section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.inicio {
+    background: url('Imagen\ de\ fundo\ Tela01.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.sobre {
+    background: url('fitlife-removebg-preview.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contato {
+    background: url('menu.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 .img img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
-    max-height: 1000px; /* Adicionado um máximo para a altura das imagens */
+    max-height: 1000px;
     margin-left: -150px;
 }
-
+``
