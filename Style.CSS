@@ -18,7 +18,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     background: linear-gradient(120deg, #131313 0%, #202120 50%, #3a3a3a 100%);
+=======
+    background: linear-gradient(120deg, #383838 0%, #1b1d1b 100%);
+>>>>>>> 853a94ff07218e3170107d1e6a2aaeb6635d6ee3
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
