@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-    min-height: 700px; /* Reduzido de 1400px para 800px */
-    padding: 2%; /* Reduzido o padding */
+    min-height: 700px;
+    padding: 2%; 
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -18,11 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-    background: linear-gradient(120deg, #131313 0%, #202120 50%, #3a3a3a 100%);
-=======
     background: linear-gradient(120deg, #383838 0%, #1b1d1b 100%);
->>>>>>> 853a94ff07218e3170107d1e6a2aaeb6635d6ee3
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
@@ -30,8 +26,7 @@ body {
 }
 
 .logo {
-    font-size: 2rem;
-    color: aliceblue;
+    
 }
 
 .menu {
@@ -64,7 +59,7 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
-    max-height: 1000px; /* Adicionado um máximo para a altura das imagens */
+    max-height: 1000px;
     margin-left: -150px;
 }
 
