@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #164d00;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 90px;
+}
