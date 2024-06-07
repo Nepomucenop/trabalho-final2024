@@ -20,18 +20,19 @@
                 display: flex;
                 align-items: center;
                 width: 100%;
-                padding: 15px;
+                padding: 16px;
                 box-sizing: border-box;
                 margin: 0;
+                
                
         }
 
         .logo {
-            font-size: 2rem;
-            z-index: 3;
-            margin-top: -100px;
-            background-color: rgb(0, 0, 0);
-            
+            max-width: 0px;
+            max-height: 0px;
+            background-color: aliceblue;
+            margin-top: -275px;
+            margin-left: -100px;
         }
 
         .menu {
@@ -42,7 +43,7 @@
             margin: 0;
             position: absolute;
             right: 20px; 
-            margin-top: 40px;
+            margin-top: 90px;
            
         }
 
@@ -58,6 +59,7 @@
             border-radius: 30px;
             transition: 0.6s;
             font-size: 1.5rem;
+          
           
         }
 
