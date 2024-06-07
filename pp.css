@@ -8,13 +8,12 @@ body {
 .topo {
     width: 100%;
     height: 40px;
-    border: 2px solid rgb(51, 255, 0);
     position: relative;
     display: flex;
     align-items: center;
-    background: linear-gradient(120deg, #000000 0%, #393636 100%);
     box-sizing: border-box;
     margin: 0;
+    background-color:  #1d1d1d;
    
 }
 
@@ -64,7 +63,7 @@ body {
 }
 
 .s-m2 a:hover > i, .s-m a:hover > i {
-    transform: scale(1.4)  rotate(360deg );
+    transform: scale(1.4)  rotate(1deg );
 }
 
 .menu {
@@ -101,14 +100,13 @@ body {
     justify-content: center;
     width: 100%;
     height: 200px;
-    border: 2px solid rgb(0, 0, 0);
     backgroud: #0039e4;
 }
 
 .pag-p {
     width: 100%;
-    height: 880px;
-    border: 2px solid rgb(0, 38, 255);
+    height: 1000px;
+
     background: #1d1d1d;
 }
 
@@ -136,8 +134,8 @@ body {
 }
 
 .texto-p .texto h2 span {
-    font-size: 3.5rem;
-    color: #27d227;
+    font-size: 2.5rem;
+    color: #00e022;
 }
 
 .texto-p .texto p {
@@ -148,14 +146,14 @@ body {
     display: inline-block;
     margin-top: 180px;
     padding: 10px 25px;
-    background: #27d227;
+    background: #46c900;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
     border-radius: 40px;
     transition: 0.3s ease-in-out;
-    margin-top: -29 0px;
+    margin-top: 10px;
 }
 
 .texto-p .texto a:hover {
