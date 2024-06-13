@@ -17,7 +17,7 @@ body{
     margin: 0;
     position: absolute;
     right: 20px; 
-    margin-top: 90px;
+    margin-top: 50px;
    
 }
 
@@ -36,46 +36,41 @@ body{
 }
 
 .menu li a:hover {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
-}
-
-.interface{
-    max-width: 1280px;
-    margin: 0 auto;
 }
 
 .flex{
     display: flex;
 }
 
-.inicio h1{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 90px;
+section.sobre{
+    padding: 40px 4%;
+    
 }
 
-
-section.topo{
-    padding: 90px 4%;
-}
-
-section.topo.flex{
+section.sobre .flex{
     align-items: center;
-    justify-content: center;  
+    gap: 60px;
 }
 
-.topo h1{
-    color: white;
-    font-size: 42px;
+.sobre .txt-sobre{
+    color: #ffffff;
 }
 
-.topo .txt-topo-site p{
-    color: white;
-    margin: 40px 0px;
-
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 
-.img-topo{
-    border-radius: 50%;
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/* Adicionando estilo para a imagem */
+.sobre img {
+    width: 290px; 
+    height: auto; 
+    margin: 30px;
 }

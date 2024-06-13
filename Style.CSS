@@ -2,7 +2,7 @@ body {
     margin: 0;
     width: 100%;
     background: linear-gradient(120deg, #0b0b0b 12%, #093808dd 100%);
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium';
 }
 
 .container {
