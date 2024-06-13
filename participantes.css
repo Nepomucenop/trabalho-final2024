@@ -11,8 +11,7 @@ body{
 
 
 .topo {
-    width: 100%;
-    height: 40px;
+    width: 0%;
     position: relative;
     display: flex;
     align-items: center;
@@ -132,6 +131,7 @@ section.sobre .flex{
     margin: 20px 0;
     text-align: justify;
 }
+
 
 
 .sobre img {
