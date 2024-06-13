@@ -6,7 +6,6 @@ document.getElementById('form').addEventListener('submit', function(event) {
     const weight = parseFloat(document.getElementById('weight').value);
     const age = parseInt(document.getElementById('age').value);
 
-    // Verificar se os valores são válidos
     if (isNaN(height) || isNaN(weight) || isNaN(age)) {
         alert('Por favor, preencha todos os campos corretamente.');
         return;
