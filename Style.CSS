@@ -1,17 +1,18 @@
 body {
     margin: 0;
     width: 100%;
-    background: linear-gradient(120deg, #0b0b0b 12%, #195918aa 100%);
+    background: linear-gradient(120deg, #0b0b0b 12%, #093808dd 100%);
     font-family: Arial, sans-serif;
 }
 
 .container {
-    min-height: 700px;
+    max-height: 675px;
     padding: 2%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .navbar {
@@ -66,22 +67,37 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
-    max-height: 700px;
+    max-height: 1000px;
     margin: 0 auto;
-    display: block;
     transform: scaleX(-1);
 }
 
 .img {
     margin-left: 400px;
 }
-
+.conheca {
+    background-color: #000000;
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.fundobr{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 900px;
+    height: 500px;
+    margin-left: 320px;
+}
 .new-section {
-    background-color: aliceblue;
+    background: linear-gradient(120deg, #ffffff 12%, #bbbbbb 100%);
+    background-size: cover; 
+    background-position: center; 
     height: 780px;
     width: 100%;
-}
 
+}
 .card-container {
     display: flex;
     justify-content: space-around;
@@ -94,7 +110,7 @@ body {
     height: 500px;
     padding: 20px;
     margin-top: 130px;
-    background-color: #0e0707;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
