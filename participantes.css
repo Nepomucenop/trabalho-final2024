@@ -78,10 +78,17 @@ body{
     transform: scale(1.4)  rotate(1deg );
 }
 
-
+.section-title {
+    color: #ffffff;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
 
 
 .menu {
+    align-items: center;
+    text-align: center;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -147,4 +154,8 @@ section.sobre .flex{
     width: 290px; 
     height: auto; 
     margin: 30px;
+}
+
+span{
+    color: #4CAF50;
 }
