@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     margin: 0;
     width: 100%;
     background: linear-gradient(120deg, #0b0b0b 12%, #093808dd 100%);
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    
 }
 
 .container {
@@ -38,13 +43,14 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
-    max-height: 1000px;
+    max-height: 800px;
     margin: 0 auto;
     transform: scaleX(-1);
 }
 
 .img {
     margin-left: 400px;
+    margin-top: -70px;
 }
 
 .conheca {
@@ -69,7 +75,7 @@ body {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    border-radius: 15px;
 }
 
 .fundobr h1 {
@@ -81,20 +87,23 @@ body {
 }
 
 .fundobr p {
-    font-size: 1.75rem;
+    font-size: 1.30rem;
     color: #3a3a3a;
     line-height: 1.5;
 }
 
 .menu {
-    list-style: none;
+    
+    
     display: flex;
     gap: 20px;
     padding: 0;
     margin: 0;
+    margin-right: 200px;
     position: absolute;
     right: 660px;
-    margin-top: 350px;
+    margin-top: 390px;
+
     padding: 10px 20px;
     text-decoration: none;
     font-size: 19px;
@@ -104,7 +113,8 @@ body {
     font-size: 1.5rem;
     text-align: center;
     background-color: rgb(43, 189, 23);
-    font-family: Arial, sans-serif;
+    
+    
 }
 
 
@@ -148,7 +158,7 @@ body {
 }
 
 .card p {
-    font-size: 1.25rem;
+    font-size: 15px;
     color: #ffffff;
 }
 
