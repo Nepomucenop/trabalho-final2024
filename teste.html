@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> TMB</title>
+    <script src="tmb.js"></script>
+    <link rel="stylesheet" href="pp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+        
+        <ul class="menu">
+            <li class="inicio">
+                <a href="#">Inicio</a>
+            </li>
+            <li class="quem-somos">
+                <a href="#">Quem somos</a>
+            </li>
+        </ul>
+    </div>
+    <div class="pag-p">
+        <div class="texto-p"> 
+            <div class="texto"> 
+                <h2>O que é <br><span>TMB</span></h2>
+                <h3>
+                    <p>A Taxa Metabólica Basal (TMB) é a quantidade mínima de energia que o corpo humano precisa para manter suas funções vitais em repouso, ou seja, para manter os processos fisiológicos básicos, como respiração, circulação sanguínea, função cerebral e manutenção da temperatura corporal, mesmo quando estamos em estado de total repouso e em jejum.</p>
+                    <p>A TMB é influenciada por vários fatores, incluindo idade, sexo, altura, peso e composição corporal. Normalmente, a TMB é expressa em calorias por dia e pode variar de pessoa para pessoa.</p>
+                    <p>Para calcular a TMB, podem ser utilizadas diferentes fórmulas, sendo uma das mais comuns a Equação de Harris-Benedict, que leva em consideração idade, sexo, altura e peso. Existem também dispositivos e aplicativos que podem ajudar a estimar a TMB de forma mais precisa.</p>
+                    <p>A TMB é importante porque representa a maior parte do gasto energético diário de uma pessoa, contribuindo para a manutenção do peso corporal. Conhecer a TMB pode ajudar na elaboração de planos alimentares e programas de exercícios personalizados para atingir objetivos específicos de saúde, como perda de peso, ganho de massa muscular ou simplesmente manutenção da saúde.</p>
+                    <p>É importante ressaltar que a TMB é apenas uma parte do gasto energético total de uma pessoa. Além da TMB, o gasto energético diário também inclui a energia utilizada em atividades físicas (Atividade Física) e a energia necessária para a digestão dos alimentos (Efeito Térmico dos Alimentos), entre outros fatores.</p>
+                    <p>Em resumo, a TMB é a quantidade mínima de energia que nosso corpo precisa para funcionar em repouso, e compreender sua importância e como calculá-la pode ser.</p>
+                </h3>
+                <a href="#">Voltar</a>
+            </div>
+        </div>  
+    </div>
+    <section id="calcular">
+        <form id="form">
+            <h1 id="titulo">
+                TMB
+            </h1>
+   
+            <div class="input-box">
+                <label for="height">
+                    Altura em centimetros
+                </label>
+                <div class="input-field">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <input type="number" id="height" required>
+                    <span> Cm</span>
+                </div>
+            </div>
+            <div class="input">
+                <label for="weight">
+                    Peso corporal
+                </label>
+                <div class="input-field">
+                    <i class="fa-solid fa-weight-hanging"></i>
+                    <input type="number" id="weight" required>
+                    <span> Kg</span>
+                </div>
+            </div>
+            <div class="input">
+                <label for="age">
+                    Idade
+                </label>
+                <div class="input-field">
+                    <i class="fa-solid fa-child"></i>
+                    <input type="number" id="age" required>
+                    <span> Idade</span>
+                </div>
+            </div>
+            <button id="calculador">
+                Calcular
+            </button>
+        </form>
+        <div id="infos">
+            <div id="results">
+                <div id="bmi" >
+                    <span id="valor"></span>
+                    <span> Seu TMB</span>
+                </div>
+            </div>
+            <div id="descricao">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <script src="tmb.js"></script>
+</body>
+</html>

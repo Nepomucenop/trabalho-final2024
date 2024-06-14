@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("formulario");
     const pesoInput = document.getElementById("peso");
@@ -43,5 +42,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
-
-
