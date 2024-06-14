@@ -32,35 +32,7 @@ body {
     margin-left: -100px;
 }
 
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    right: 20px;
-    margin-top: 90px;
-}
 
-.menu li {
-    display: inline-block;
-}
-
-.menu li a {
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 19px;
-    color: white;
-    border-radius: 30px;
-    transition: 0.6s;
-    font-size: 1.5rem;
-}
-
-.menu li a:hover {
-    background-color: white;
-    color: black;
-}
 
 .img img {
     max-width: 100%;
@@ -114,6 +86,29 @@ body {
     line-height: 1.5;
 }
 
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 660px;
+    margin-top: 350px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: 0.6s;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(43, 189, 23);
+    font-family: Arial, sans-serif;
+}
+
+
+
 .new-section {
     background: linear-gradient(120deg, #ffffff 12%, #bbbbbb 100%);
     background-size: cover;
@@ -139,6 +134,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .card:hover {
