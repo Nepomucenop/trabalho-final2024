@@ -2,7 +2,7 @@ body {
     margin: 0;
     width: 100%;
     background: linear-gradient(120deg, #0b0b0b 12%, #093808dd 100%);
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 .container {
@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .navbar {
@@ -75,29 +74,54 @@ body {
 .img {
     margin-left: 400px;
 }
+
 .conheca {
     background-color: #000000;
     width: 100%;
     height: 650px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-position: center;
 }
-.fundobr{
+
+.fundobr {
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 0px;
     width: 900px;
     height: 500px;
-    margin-left: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.new-section {
-    background: linear-gradient(120deg, #ffffff 12%, #bbbbbb 100%);
-    background-size: cover; 
-    background-position: center; 
-    height: 780px;
-    width: 100%;
+
+.fundobr h1 {
+    font-size: 4rem;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: -50px;
 
 }
+
+.fundobr p {
+    font-size: 1.75rem;
+    color: #3a3a3a;
+    line-height: 1.5;
+}
+
+.new-section {
+    background: linear-gradient(120deg, #ffffff 12%, #bbbbbb 100%);
+    background-size: cover;
+    background-position: center;
+    height: 780px;
+    width: 100%;
+}
+
 .card-container {
     display: flex;
     justify-content: space-around;
@@ -110,10 +134,11 @@ body {
     height: 500px;
     padding: 20px;
     margin-top: 130px;
-    background-color: #000000;
+    background-color: #093808dd;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 .card:hover {
@@ -122,16 +147,18 @@ body {
 
 .card h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .card p {
-    font-size: 1rem;
-    color: #666;
+    font-size: 1.25rem;
+    color: #ffffff;
 }
 
-.card img{
-    max-width: 400px;
+.card img {
+    width: 100%; 
     max-height: 500px;
+    object-fit: cover; 
+    border-radius: 5px;
 }
